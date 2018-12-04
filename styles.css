@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.card {
+    float: left;
+    margin-left: 170px;
+}
+
+/*Media Queries*/
+@media (max-width: 768px) {
+  .card {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+}
